@@ -1,0 +1,21 @@
+Rectangle
+
+def area_of_Rectangle(length, width):
+    return length * width
+length = float(input('Please Enter the Length of a Triangle: '))
+width = float(input('Please Enter the Width of a Triangle: '))
+
+area = area_of_Rectangle(length, width)
+
+print("The Area of a Rectangle using", length, "and", width, " = ", area)
+
+
+Average
+
+num = int(input('How many numbers: '))
+total_sum = 0
+for n in range(num):
+    numbers = float(input('Enter number : '))
+    total_sum += numbers
+avg = total_sum/num
+print('Average of ', num, ' numbers is :', avg)

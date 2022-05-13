@@ -1,0 +1,11 @@
+arr=[]
+print('Enter 5 numbers')
+total=0
+for i in range(5):
+  arr.append(int(input()))
+  total=total+arr[i]
+print('The sum of the numbers:', total)
+print('The number in reverse order:')
+arr.reverse()
+for x in arr:
+  print(x,end=" ")
